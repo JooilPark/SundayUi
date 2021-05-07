@@ -28,7 +28,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/text_gallery">
 
-            <com.obelab.ui.ui.gallery.ResultMeterView
+            <com.sunday.ui.ui.gallery.ResultMeterView
                 android:id="@+id/meter"
                 android:layout_width="375dp"
                 android:layout_height="240dp"
@@ -37,13 +37,13 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
         </FrameLayout>
-        <com.obelab.ui.ui.gallery.CentipedeChart
+        <com.sunday.ui.ui.gallery.CentipedeChart
             android:id="@+id/centiped"
             app:layout_constraintLeft_toRightOf="@id/meterF"
             app:layout_constraintTop_toTopOf="@id/meterF"
             android:layout_width="442dp"
             android:layout_height="30dp"/>
-        <com.obelab.ui.ui.gallery.BrainActivityView
+        <com.sunday.ui.ui.gallery.BrainActivityView
             android:id="@+id/brean"
             android:layout_width="250dp"
             android:layout_height="75dp"
@@ -52,7 +52,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/meterF" />
 
-        <com.obelab.ui.ui.gallery.BrainConnectivityView
+        <com.sunday.ui.ui.gallery.BrainConnectivityView
             android:id="@+id/bConnecty"
             android:layout_width="222dp"
             android:layout_height="222dp"
@@ -69,7 +69,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/bConnecty">
 
-            <com.obelab.ui.ui.gallery.Score3ColorBar
+            <com.sunday.ui.ui.gallery.Score3ColorBar
                 android:id="@+id/bar1"
                 android:layout_width="300dp"
                 android:layout_height="15dp" />
@@ -87,7 +87,7 @@
             app:layout_constraintStart_toEndOf="@+id/bConnecty"
             app:layout_constraintTop_toBottomOf="@+id/brean">
 
-            <com.obelab.ui.ui.gallery.stdGraph
+            <com.sunday.ui.ui.gallery.stdGraph
                 android:layout_width="343dp"
                 android:layout_height="192dp" />
         </LinearLayout>

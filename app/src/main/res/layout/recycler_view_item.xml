@@ -9,7 +9,7 @@
             type="android.view.View.OnClickListener" />
         <variable
             name="listitem"
-            type="com.obelab.ui.ui.healthmaxisb.ListItem" />
+            type="com.sunday.ui.ui.healthmaxisb.ListItem" />
 
     </data>
 

@@ -7,56 +7,56 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.obelab.ui.ui.home.HomeFragment"
+        android:name="com.sunday.ui.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.obelab.ui.ui.gallery.GalleryFragment"
+        android:name="com.sunday.ui.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.obelab.ui.ui.slideshow.SlideshowFragment"
+        android:name="com.sunday.ui.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_tools"
-        android:name="com.obelab.ui.ui.tools.ToolsFragment"
+        android:name="com.sunday.ui.ui.tools.ToolsFragment"
         android:label="@string/menu_tools"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
         android:id="@+id/nav_share"
-        android:name="com.obelab.ui.ui.share.ShareFragment"
+        android:name="com.sunday.ui.ui.share.ShareFragment"
         android:label="@string/menu_share"
         tools:layout="@layout/fragment_share" />
 
     <fragment
         android:id="@+id/nav_send"
-        android:name="com.obelab.ui.ui.send.SendFragment"
+        android:name="com.sunday.ui.ui.send.SendFragment"
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
     <fragment
         android:id="@+id/healthMaxFragment"
-        android:name="com.obelab.ui.ui.healthmaxisb.HealthMaxFragment"
+        android:name="com.sunday.ui.ui.healthmaxisb.HealthMaxFragment"
         android:label="HealthMaxFragment" />
     <fragment
         android:id="@+id/sttFragment"
-        android:name="com.obelab.ui.ui.stt.SttFragment"
+        android:name="com.sunday.ui.ui.stt.SttFragment"
         android:label="fragment_stt"
         tools:layout="@layout/fragment_stt" />
     <fragment
         android:id="@+id/naverSttFragment"
-        android:name="com.obelab.ui.ui.navstt.naverSttFragment"
+        android:name="com.sunday.ui.ui.navstt.naverSttFragment"
         android:label="fragment_naver_stt"
         tools:layout="@layout/fragment_naver_stt" />
     <fragment
         android:id="@+id/cameraFragment"
-        android:name="com.obelab.ui.ui.camera.CameraFragment"
+        android:name="com.sunday.ui.ui.camera.CameraFragment"
         android:label="fragment_camera"
         tools:layout="@layout/fragment_camera" />
 </navigation>

@@ -7,7 +7,7 @@
 
         <variable
             name="usbviewmodel"
-            type="com.obelab.ui.ui.healthmaxisb.HealthMaxViewModel" />
+            type="com.sunday.ui.ui.healthmaxisb.HealthMaxViewModel" />
 
     </data>
 
