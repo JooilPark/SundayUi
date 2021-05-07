@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="usbviewmodel"
+            type="com.obelab.ui.ui.healthmaxisb.HealthMaxViewModel" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/controller"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/usb_list"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:listitem="@layout/recycler_view_item" />
+
+            <Button
+                android:id="@+id/button_send_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="측정중 07"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/usb_list" />
+
+            <Button
+                android:id="@+id/button_send_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="측정완료 08"
+                app:layout_constraintTop_toBottomOf="@id/button_send_7" />
+
+            <Button
+                android:id="@+id/button_send_M"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="버전확인 'M'"
+                app:layout_constraintLeft_toRightOf="@+id/button_send_8"
+                app:layout_constraintTop_toTopOf="@id/button_send_7" />
+
+            <Button
+                android:id="@+id/button_send_devicelist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="장비 목록 새로고침"
+                app:layout_constraintTop_toBottomOf="@id/button_send_8" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+
+            android:id="@+id/connectTExt"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+</layout>
