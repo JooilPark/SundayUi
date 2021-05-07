@@ -1,4 +1,4 @@
-package com.obelab.ui.ui.healthmaxisb
+package com.sunday.ui.ui.healthmaxisb
 
 import android.hardware.usb.UsbDevice
 import com.hoho.android.usbserial.driver.UsbSerialDriver

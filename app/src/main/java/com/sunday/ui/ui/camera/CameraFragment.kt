@@ -1,4 +1,4 @@
-package com.obelab.ui.ui.camera
+package com.sunday.ui.ui.camera
 
 import android.content.Context
 import android.content.pm.PackageManager
@@ -15,8 +15,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
-import com.obelab.ui.R
-import com.obelab.ui.databinding.FragmentCameraBinding
+import com.sunday.ui.R
+import com.sunday.ui.databinding.FragmentCameraBinding
 
 
 class CameraFragment : Fragment() {

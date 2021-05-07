@@ -1,4 +1,4 @@
-package com.obelab.ui.ui.gallery;
+package com.sunday.ui.ui.gallery;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -16,7 +16,7 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
-import com.obelab.ui.R;
+import com.sunday.ui.R;
 
 public class stdGraph extends View {
     private final String TAG = "[stdGraph]";

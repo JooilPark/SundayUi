@@ -1,4 +1,4 @@
-package com.obelab.ui.ui.gallery;
+package com.sunday.ui.ui.gallery;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -15,12 +15,9 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
-import android.widget.FrameLayout;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-
-import com.obelab.ui.R;
 
 public class ResultMeterView extends View {
 

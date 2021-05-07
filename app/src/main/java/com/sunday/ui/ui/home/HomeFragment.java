@@ -1,6 +1,5 @@
-package com.obelab.ui.ui.home;
+package com.sunday.ui.ui.home;
 
-import android.Manifest;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
@@ -14,8 +13,7 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.obelab.ui.R;
-import com.obelab.ui.ui.healthmaxisb.HealthMaxControllers;
+import com.sunday.ui.R;
 
 public class HomeFragment extends Fragment {
 

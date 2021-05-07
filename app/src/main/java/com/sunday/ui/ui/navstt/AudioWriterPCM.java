@@ -1,4 +1,4 @@
-package com.obelab.ui.ui.navstt;
+package com.sunday.ui.ui.navstt;
 
 import java.io.File;
 import java.io.FileNotFoundException;

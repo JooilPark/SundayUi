@@ -1,4 +1,4 @@
-package com.obelab.ui.ui.gallery;
+package com.sunday.ui.ui.gallery;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

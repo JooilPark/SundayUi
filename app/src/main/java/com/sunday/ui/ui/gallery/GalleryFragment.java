@@ -1,4 +1,4 @@
-package com.obelab.ui.ui.gallery;
+package com.sunday.ui.ui.gallery;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,8 +13,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.obelab.ui.R;
-import com.obelab.ui.databinding.FragmentGalleryBinding;
+import com.sunday.ui.R;
+import com.sunday.ui.databinding.FragmentGalleryBinding;
 
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;

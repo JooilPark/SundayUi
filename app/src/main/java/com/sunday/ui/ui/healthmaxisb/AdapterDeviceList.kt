@@ -1,11 +1,11 @@
-package com.obelab.ui.ui.healthmaxisb
+package com.sunday.ui.ui.healthmaxisb
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.databinding.BindingAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.obelab.ui.databinding.RecyclerViewItemBinding
+import com.sunday.ui.databinding.RecyclerViewItemBinding
 
 class AdapterDeviceList(private val onclick: ((ListItem) -> Unit)) : RecyclerView.Adapter<AdapterDeviceList.ViewHolderDeivce>() {
     var deviceList: List<ListItem> = emptyList()

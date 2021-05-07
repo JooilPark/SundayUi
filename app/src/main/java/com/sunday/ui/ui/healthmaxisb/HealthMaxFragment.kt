@@ -1,4 +1,4 @@
-package com.obelab.ui.ui.healthmaxisb
+package com.sunday.ui.ui.healthmaxisb
 
 import android.os.Bundle
 import android.text.method.ScrollingMovementMethod
@@ -9,8 +9,8 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import com.obelab.ui.R
-import com.obelab.ui.databinding.FragmentHealthmaxBinding
+import com.sunday.ui.R
+import com.sunday.ui.databinding.FragmentHealthmaxBinding
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class HealthMaxFragment : Fragment() {

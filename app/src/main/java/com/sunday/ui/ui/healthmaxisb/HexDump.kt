@@ -1,7 +1,6 @@
-package com.obelab.ui.ui.healthmaxisb
+package com.sunday.ui.ui.healthmaxisb
 
 import java.security.InvalidParameterException
-import kotlin.experimental.and
 
 class HexDump {
     companion object{
